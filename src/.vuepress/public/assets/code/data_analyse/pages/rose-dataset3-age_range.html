@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body onresize="resizeFresh()">  <!-- 添加刷新函数调用 -->
+<!-- 添加刷新函数调用-->
+<style type="text/css">
+    html, body {
+        height: 100%;
+        width: 100%
+    }
+</style>
+<div id="8847f4b2307d4773b398a9c48416ab45" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_8847f4b2307d4773b398a9c48416ab45 = echarts.init(
+            document.getElementById('8847f4b2307d4773b398a9c48416ab45'), 'white', {renderer: 'canvas'});
+        var option_8847f4b2307d4773b398a9c48416ab45 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "rgb(255,0,0)",
+        "rgb(240,0,0)",
+        "rgb(225,0,0)",
+        "rgb(210,0,0)",
+        "rgb(195,0,0)",
+        "rgb(180,0,0)",
+        "rgb(165,0,0)",
+        "rgb(150,0,0)",
+        "rgb(135,0,0)",
+        "rgb(120,0,0)",
+        "rgb(0,100,0)",
+        "rgb(0,110,0)",
+        "rgb(0,120,0)",
+        "rgb(0,130,0)",
+        "rgb(0,140,0)",
+        "rgb(0,150,0)",
+        "rgb(0,160,0)",
+        "rgb(0,170,0)",
+        "rgb(0,180,0)",
+        "rgb(0,190,0)"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "name": "age_range",
+            "clockwise": false,
+            "data": [
+                {
+                    "name": 7,
+                    "value": 25275
+                },
+                {
+                    "name": 3,
+                    "value": 25142
+                },
+                {
+                    "name": 2,
+                    "value": 25011
+                },
+                {
+                    "name": 6,
+                    "value": 25011
+                },
+                {
+                    "name": 0,
+                    "value": 24978
+                },
+                {
+                    "name": 5,
+                    "value": 24946
+                },
+                {
+                    "name": 1,
+                    "value": 24876
+                },
+                {
+                    "name": 4,
+                    "value": 24761
+                }
+            ],
+            "radius": [
+                "3%",
+                "100%"
+            ],
+            "center": [
+                "30%",
+                "70%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 8,
+                "formatter": "{b}:{c}"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                7,
+                3,
+                2,
+                6,
+                0,
+                5,
+                1,
+                4
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_8847f4b2307d4773b398a9c48416ab45.setOption(option_8847f4b2307d4773b398a9c48416ab45);
+    </script>
+    </script>
+	<script>
+        var x=window.innerWidth;
+        function resizeFresh(){
+            if(x!=window.innerWidth)
+            location.reload();
+        }
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "我的博客，网络日记——唰唰记录，哐哐分享！",
+  "license": "CC-BY-SA-4.0",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/plugin-shiki": "2.0.0-rc.37",
+    "@waline/client": "^3.2.6",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-hope": "2.0.0-rc.50"
+  },
+  "dependencies": {
+    "mermaid": "^10.9.1",
+    "nodejs-jieba": "^0.1.2",
+    "vuepress-plugin-search-pro": "2.0.0-rc.50"
+  }
+}

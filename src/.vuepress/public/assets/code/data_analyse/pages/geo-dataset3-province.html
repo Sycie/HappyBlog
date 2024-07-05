@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body onresize="resizeFresh()">  <!-- 添加刷新函数调用 -->
+<!-- 添加刷新函数调用-->
+<style type="text/css">
+    html, body {
+        height: 100%;
+        width: 100%
+    }
+</style>
+<div id="e16a79d1784f400cb6a0656ba3b209fd" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_e16a79d1784f400cb6a0656ba3b209fd = echarts.init(
+            document.getElementById('e16a79d1784f400cb6a0656ba3b209fd'), 'white', {renderer: 'canvas'});
+        var option_e16a79d1784f400cb6a0656ba3b209fd = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "scatter",
+            "name": "province",
+            "coordinateSystem": "geo",
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u4e0a\u6d77\u5e02",
+                    "value": [
+                        121.47,
+                        31.23,
+                        6028
+                    ]
+                },
+                {
+                    "name": "\u9655\u897f",
+                    "value": [
+                        108.954239,
+                        34.265472,
+                        6021
+                    ]
+                },
+                {
+                    "name": "\u8fbd\u5b81",
+                    "value": [
+                        123.42944,
+                        41.835441,
+                        6008
+                    ]
+                },
+                {
+                    "name": "\u8d35\u5dde",
+                    "value": [
+                        106.70741,
+                        26.598194,
+                        5990
+                    ]
+                },
+                {
+                    "name": "\u9999\u6e2f",
+                    "value": [
+                        114.173355,
+                        22.320048,
+                        5980
+                    ]
+                },
+                {
+                    "name": "\u6cb3\u5357",
+                    "value": [
+                        113.753602,
+                        34.765515,
+                        5972
+                    ]
+                },
+                {
+                    "name": "\u798f\u5efa",
+                    "value": [
+                        119.295144,
+                        26.100779,
+                        5949
+                    ]
+                },
+                {
+                    "name": "\u6cb3\u5317",
+                    "value": [
+                        114.468664,
+                        38.037057,
+                        5946
+                    ]
+                },
+                {
+                    "name": "\u5c71\u897f",
+                    "value": [
+                        112.562398,
+                        37.873531,
+                        5934
+                    ]
+                },
+                {
+                    "name": "\u5c71\u4e1c",
+                    "value": [
+                        117.020359,
+                        36.66853,
+                        5929
+                    ]
+                },
+                {
+                    "name": "\u897f\u85cf",
+                    "value": [
+                        91.117212,
+                        29.646922,
+                        5912
+                    ]
+                },
+                {
+                    "name": "\u6c5f\u82cf",
+                    "value": [
+                        118.763232,
+                        32.061707,
+                        5908
+                    ]
+                },
+                {
+                    "name": "\u6d77\u5357",
+                    "value": [
+                        110.349228,
+                        20.017377,
+                        5907
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u897f",
+                    "value": [
+                        108.327546,
+                        22.815478,
+                        5899
+                    ]
+                },
+                {
+                    "name": "\u4e91\u5357",
+                    "value": [
+                        102.710002,
+                        25.045806,
+                        5898
+                    ]
+                },
+                {
+                    "name": "\u6e56\u5317",
+                    "value": [
+                        114.341861,
+                        30.546498,
+                        5887
+                    ]
+                },
+                {
+                    "name": "\u6fb3\u95e8",
+                    "value": [
+                        113.54909,
+                        22.198951,
+                        5876
+                    ]
+                },
+                {
+                    "name": "\u56db\u5ddd",
+                    "value": [
+                        104.075931,
+                        30.651651,
+                        5874
+                    ]
+                },
+                {
+                    "name": "\u5b81\u590f",
+                    "value": [
+                        106.258754,
+                        38.471317,
+                        5871
+                    ]
+                },
+                {
+                    "name": "\u5409\u6797",
+                    "value": [
+                        125.32599,
+                        43.896536,
+                        5870
+                    ]
+                },
+                {
+                    "name": "\u5185\u8499\u53e4",
+                    "value": [
+                        111.765617,
+                        40.817498,
+                        5869
+                    ]
+                },
+                {
+                    "name": "\u65b0\u7586",
+                    "value": [
+                        87.627704,
+                        43.793026,
+                        5866
+                    ]
+                },
+                {
+                    "name": "\u6c5f\u897f",
+                    "value": [
+                        115.909228,
+                        28.675696,
+                        5863
+                    ]
+                },
+                {
+                    "name": "\u7518\u8083",
+                    "value": [
+                        103.826308,
+                        36.059421,
+                        5853
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac\u5e02",
+                    "value": [
+                        116.4,
+                        39.9,
+                        5840
+                    ]
+                },
+                {
+                    "name": "\u5b89\u5fbd",
+                    "value": [
+                        117.284922,
+                        31.861184,
+                        5831
+                    ]
+                },
+                {
+                    "name": "\u6e56\u5357",
+                    "value": [
+                        112.98381,
+                        28.112444,
+                        5806
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u4e1c",
+                    "value": [
+                        113.26653,
+                        23.132191,
+                        5805
+                    ]
+                },
+                {
+                    "name": "\u9752\u6d77",
+                    "value": [
+                        101.780199,
+                        36.620901,
+                        5801
+                    ]
+                },
+                {
+                    "name": "\u6d59\u6c5f",
+                    "value": [
+                        120.152791,
+                        30.267446,
+                        5791
+                    ]
+                },
+                {
+                    "name": "\u53f0\u6e7e",
+                    "value": [
+                        121.509062,
+                        25.044332,
+                        5767
+                    ]
+                },
+                {
+                    "name": "\u5929\u6d25\u5e02",
+                    "value": [
+                        117.2,
+                        39.12,
+                        5761
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86\u5e02",
+                    "value": [
+                        106.55,
+                        29.57,
+                        5759
+                    ]
+                },
+                {
+                    "name": "\u9ed1\u9f99\u6c5f",
+                    "value": [
+                        126.661669,
+                        45.742347,
+                        5729
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "province"
+            ],
+            "selected": {
+                "province": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "dataset3-province",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 5700,
+        "max": 6050,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "china",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_e16a79d1784f400cb6a0656ba3b209fd.setOption(option_e16a79d1784f400cb6a0656ba3b209fd);
+    </script>
+    </script>
+	<script>
+        var x=window.innerWidth;
+        function resizeFresh(){
+            if(x!=window.innerWidth)
+            location.reload();
+        }
+	</script>
+</body>
+</html>
